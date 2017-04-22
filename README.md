@@ -16,9 +16,9 @@ library(fungaltraits)
 ```r
 fungal_traits()
 ```
-This will download the data, and load it into R, and you're ready to do analyses.  
+This will download the data, and load it into R, and you're ready to do analyses.  The meta-data associated with the data is [in the zip file that can be downloaded here](https://github.com/traitecoevo/fungaltraits/releases).  
 
-**If you use this package in a published paper, please note the version number**.  This  will allow others to reproduce your work later.  
+**If you use this package in a published paper, please note the version number**.  This  will allow others to reproduce your work later.  There is a Zenodo DOI associated with each release, insuring that it will be stable in the future.  
 
 That's it, really.  Below is information about the data sources and the versioned data distribution system (which we think is really cool), feel free to check it out, but you don't need to read the rest of this to use the package.  
 
@@ -44,7 +44,7 @@ We will periodically release development versions of the database using github r
 *This is for database maintainers*
 
 * Update the `DESCRIPTION` file to **increase** the version number.  Once we are past version 1.0.0, we will use [semantic versioning](http://semver.org/) so be aware of when to change what number.
-* Rebuild `funtothefun.csv` making whatever improvements/fixes are necessary
+* Rebuild `funtothefun.csv` and `funtothefun.zip` making whatever improvements/fixes are necessary
 * Commit data and code changes and `DESCRIPTION` and push to GitHub
 * With R in the package directory, run
 
