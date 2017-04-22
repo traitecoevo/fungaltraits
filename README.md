@@ -1,4 +1,6 @@
-# fungal traits: a dynamic functional trait database for the world's fungi
+# fungaltraits aka fun<sup>fun</sup>: a dynamic functional trait database for the world's fungi
+
+-----------------------
 
 ## How to use this package
 
