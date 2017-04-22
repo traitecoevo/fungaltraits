@@ -10,6 +10,7 @@ LazyData: true
 Authors@R: as.person(c("Will Cornwell <wcornwell@gmail.com> [aut, cre]","Habacuc Flores <haba@gmail.com> [aut]"))
 Maintainer: Will Cornwell <wcornwell@gmail.com>
 Imports:
+    tidyr,
     datastorr (>= 0.0.3)
 Suggests:
     testthat

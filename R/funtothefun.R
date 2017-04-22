@@ -32,8 +32,9 @@
 ##' #
 
 fungal_traits <- function(version=NULL, path=NULL) {
-  d <- fungal_traits_get(version, path)
-  d
+  fun2fun <- fungal_traits_get(version, path)
+  fun2fun <- tidyr::spread(fun2fun,key = trait_name,value = value,convert = TRUE)
+  fun2fun
 }
 
 ## This one is the important part; it defines the three core bits of
@@ -49,7 +50,7 @@ fungal_traits_info <- function(path) {
 }
 
 fungal_traits_get <- function(version=NULL, path=NULL) {
-  datastorr::github_release_get(plant_lookup_info(path), version)
+  datastorr::github_release_get(fungal_traits_info(path), version)
 }
 
 ##' @export
@@ -66,7 +67,7 @@ fungal_traits_versions <- function(local=TRUE, path=NULL) {
 ##' @export
 ##' @rdname fungal_traits
 fungal_traits_version_current <- function(local=TRUE, path=NULL) {
-  datastorr::github_release_version_current(plant_lookup_info(path), local)
+  datastorr::github_release_version_current(fungal_traits_info(path), local)
 }
 
 ##' @export

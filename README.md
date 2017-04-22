@@ -12,12 +12,11 @@ devtools::install_github("traitecoevo/fungaltraits")
 library(fungaltraits)
 ```
 
-### Find the higher taxonomy for your species list
+### Access the fungal traits database
 
 ```r
 fungal_traits()
 ```
-
 
 **If you use this package in a published paper, please note the version number**.  This  will allow others to reproduce your work later.  
 
@@ -47,13 +46,13 @@ Download the package and rerun the build script.  We'll work this way as we add 
 
 * Update the `DESCRIPTION` file to **increase** the version number.  Once we are past version 1.0.0, we will use [semantic versioning](http://semver.org/) so be aware of when to change what number.
 * Rebuild `funtothefun.csv`
-* Commit code changes and `DESCRIPTION` and push to GitHub
+* Commit data and code changes and `DESCRIPTION` and push to GitHub
 * With R in the package directory, run
 
 ```r
-taxonlookup:::plant_lookup_release("<description>")
+taxonlookup:::fungal_traits_release("<description>")
 ```
 
 where `"<description>"` is a brief description of new features of the release.
-* Check that it works by running `taxonlookup::plant_lookup(taxonlookup::fungal_traits_version_current(FALSE))` which should pull the data.
+* Check that it works by running `fungal traits::fungal_traits()` which should pull the data.
 * Update the Zenodo badge on the readme (once this exists)
