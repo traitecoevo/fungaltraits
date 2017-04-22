@@ -43,7 +43,7 @@ fungal_traits <- function(version=NULL, path=NULL) {
 ##   3. the function to read the file, given a filename (read_csv)
 fungal_traits_info <- function(path) {
   datastorr::github_release_info("traitecoevo/fungaltraits",
-                                 filename="fungaltraits.csv",
+                                 filename="funtothefun.csv",
                                  read=read_csv,
                                  path=path)
 }
