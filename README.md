@@ -2,17 +2,16 @@
 
 ## How to use this package
 
-### Install the required packages
+#### Install the required packages
 
 ```r
 install.packages("devtools")
-devtools::install_github("hadley/httr")
-devtools::install_github("richfitz/datastorr")
+devtools::install_github("ropenscilabs/datastorr")
 devtools::install_github("traitecoevo/fungaltraits")
 library(fungaltraits)
 ```
 
-### Access the fungal traits database
+#### Access the fungal traits database
 
 ```r
 fungal_traits()
@@ -25,28 +24,27 @@ That's it, really.  Below is information about the data sources and the versione
 
 ----------------------
 
-## Data sources
+### Data sources
 
 Some meta-data here
 
-# Living database
+## Living database
 
-## Stable version
+### Stable version
 
 Eventually this package will exist on CRAN; versions there will be our "stable releases" and will generally correspond to an increase in the first version number.
 
-## Development version
+### Development version
 
 We will periodically release development versions of the database using github releases (every CRAN release will also be a github release).  We'll do this automatically using [travis-ci](http://travis-ci.org) using its [deploy to github releases](http://docs.travis-ci.com/user/deployment/releases/) and [conditional deployment](http://docs.travis-ci.com/user/deployment/#Conditional-Releases-with-on%3A) features.  This will correspond to an increase in the second version number and also to the first version number when simultaneously being released to CRAN.
 
-## Bleeding edge version
 
-Download the package and rerun the build script.  We'll work this way as we add new data to the package.
+## Notes for making a release using this *living dataset* design
 
-# Notes for making a release using this *living dataset* design
+*This is for database maintainers*
 
 * Update the `DESCRIPTION` file to **increase** the version number.  Once we are past version 1.0.0, we will use [semantic versioning](http://semver.org/) so be aware of when to change what number.
-* Rebuild `funtothefun.csv`
+* Rebuild `funtothefun.csv` making whatever improvements/fixes are necessary
 * Commit data and code changes and `DESCRIPTION` and push to GitHub
 * With R in the package directory, run
 
@@ -55,5 +53,5 @@ taxonlookup:::fungal_traits_release("<description>")
 ```
 
 where `"<description>"` is a brief description of new features of the release.
-* Check that it works by running `fungal traits::fungal_traits()` which should pull the data.
+* Check that it works by running `fungaltraits::fungal_traits()` which should pull the data.
 * Update the Zenodo badge on the readme (once this exists)
