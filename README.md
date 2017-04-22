@@ -1,4 +1,4 @@
-# taxonlookup: a taxonomic lookup table for land plants
+# fungal traits: a dynamic functional trait database for the world's fungi
 
 ## How to use this package
 
@@ -17,6 +17,7 @@ library(fungaltraits)
 ```r
 fungal_traits()
 ```
+This will download the data, and load it into R, and you're ready to do analyses.  
 
 **If you use this package in a published paper, please note the version number**.  This  will allow others to reproduce your work later.  
 
