@@ -61,7 +61,7 @@ fungal_traits_get <- function(version=NULL, path=NULL) {
 ##'   \code{TRUE}, but there are no local versions, then we do check
 ##'   for the most recent github version.
 fungal_traits_versions <- function(local=TRUE, path=NULL) {
-  datastorr::github_release_versions(plant_lookup_info(path), local)
+  datastorr::github_release_versions(fungal_traits_info(path), local)
 }
 
 ##' @export
@@ -73,7 +73,7 @@ fungal_traits_version_current <- function(local=TRUE, path=NULL) {
 ##' @export
 ##' @rdname fungal_traits
 fungal_traits_del <- function(version, path=NULL) {
-  datastorr::github_release_del(plant_lookup_info(path), version)
+  datastorr::github_release_del(fungal_traits_info(path), version)
 }
 
 read_csv <- function(...) {
