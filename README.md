@@ -28,18 +28,31 @@ That's it, really.  Below is information about the data sources and the versione
 
 ### Data sources
 
-Some meta-data here
+-   Anderson, T. "Assessment of DNA contents of soil fungi." Landbauforschung Volkenrode 58.1/2 (2008): 19.
 
-## Living database
+-   Bässler, Claus, et al. "Ectomycorrhizal fungi have larger fruit bodies than saprotrophic fungi." Fungal Ecology 17 (2015): 205-212.
 
-### Stable version
+-   Crowther, Tom and D. Maynard. Unpublished.
 
-Eventually this package will exist on CRAN; versions there will be our "stable releases" and will generally correspond to an increase in the first version number.
+-   Grigoriev, Igor V., et al. "MycoCosm portal: gearing up for 1000 fungal genomes." Nucleic Acids Research (2013): gkt1183.
 
-### Development version
+-   Mouginot, Céline, et al. "Elemental stoichiometry of Fungi and Bacteria strains from grassland leaf litter." Soil Biology and Biochemistry 76 (2014): 278-285.
 
-We will periodically release development versions of the database using github releases (every CRAN release will also be a github release).  We'll do this automatically using [travis-ci](http://travis-ci.org) using its [deploy to github releases](http://docs.travis-ci.com/user/deployment/releases/) and [conditional deployment](http://docs.travis-ci.com/user/deployment/#Conditional-Releases-with-on%3A) features.  This will correspond to an increase in the second version number and also to the first version number when simultaneously being released to CRAN.
+-   Nguyen, Nhu H., et al. "FUNGuild: an open annotation tool for parsing fungal community datasets by ecological guild." Fungal Ecology 20 (2016): 241-248.
 
+-   Schlussler,. Unpublsihed.
+
+-   Schoch, Conrad L., et al. "The Ascomycota tree of life: a phylum-wide phylogeny clarifies the origin and evolution of fundamental reproductive and ecological traits." Systematic biology (2009): syp020.
+
+-   Talbot, Jennifer M., et al. "Functional guild classification predicts the enzymatic role of fungi in litter and soil biogeochemistry." Soil Biology and Biochemistry 88 (2015): 441-456.
+
+-   Talbot, Jennifer M. Unpublished.
+
+-   Tedersoo, Leho, and Matthew E. Smith. "Lineages of ectomycorrhizal fungi revisited: foraging strategies and novel lineages revealed by sequences from belowground." Fungal biology reviews 27.3 (2013): 83-99.
+
+-   Treseder, Kathleen K., et al. "Experimental warming alters potential function of the fungal community in boreal forest." Global change biology (2016).
+
+![](Logo_Natalie_edit.png)
 
 ## Notes for making a release using this *living dataset* design
 
@@ -49,11 +62,7 @@ We will periodically release development versions of the database using github r
 * Rebuild `funtothefun.csv` and `funtothefun.zip` making whatever improvements/fixes are necessary
 * Commit data and code changes and `DESCRIPTION` and push to GitHub
 * With R in the package directory, run
-
 ```r
-taxonlookup:::fungal_traits_release("<description>")
+fungaltraits:::fungal_traits_release("<description>")
 ```
-
 where `"<description>"` is a brief description of new features of the release.
-* Check that it works by running `fungaltraits::fungal_traits()` which should pull the data.
-* Update the Zenodo badge on the readme (once this exists)
