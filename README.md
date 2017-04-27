@@ -1,10 +1,8 @@
 # fungaltraits aka fun<sup>fun</sup>: a dynamic functional trait database for the world's fungi
 
------------------------
-
 ## How to use this package
 
-#### Install the required packages
+#### Install the package
 
 ```r
 install.packages("devtools")
