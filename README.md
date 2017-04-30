@@ -38,7 +38,9 @@ That's it, really.  Below is information about the data sources and the versione
 
 -   Nguyen, Nhu H., et al. "FUNGuild: an open annotation tool for parsing fungal community datasets by ecological guild." Fungal Ecology 20 (2016): 241-248.
 
--   Schlussler,. Unpublsihed.
+-   Powell,. Unpublished.
+
+-   Schlussler,. Unpublished.
 
 -   Schoch, Conrad L., et al. "The Ascomycota tree of life: a phylum-wide phylogeny clarifies the origin and evolution of fundamental reproductive and ecological traits." Systematic biology (2009): syp020.
 
@@ -51,6 +53,53 @@ That's it, really.  Below is information about the data sources and the versione
 -   Treseder, Kathleen K., et al. "Experimental warming alters potential function of the fungal community in boreal forest." Global change biology (2016).
 
 ![](Logo_Natalie_edit.png)
+
+## Fun<sup>fun</sup> DB governance:
+
+**Endophytes:**
+
+- [Michelle Afkhami](https://michelleafkhami.wordpress.com/) (afkhami@bio.miami.edu)
+- Posy Busby (posy.busby@oregonstate.edu)
+- [Natalie Christian](www.nataliechristian.com) (nschrist@indiana.edu)
+
+**Genes and Chemistry:**
+
+- Dimitri Floudas (dfloudas@gmail.com)
+- Jennifer Talbot (jmtalbot@bu.edu)
+- Kathleen Treseder (treseder@uci.edu)
+
+**Guilds:**
+
+- Scott Bates (scott.thomas.bates@gmail.com)
+- [Peter Kennedy](https://cbs.umn.edu/kennedy-lab/home) (kennedyp@umn.edu)
+
+**Mycorrhizae:**
+
+- [Peter Kennedy](https://cbs.umn.edu/kennedy-lab/home) (kennedyp@umn.edu)
+- [Jeff Powell](https://www.westernsydney.edu.au/hie/people) (Jeff.Powell@westernsydney.edu.au)
+
+**Pathogens:**
+
+- Carlos Aguilar (calgit@gmail.com)
+- [Dan Lindner](https://www.nrs.fs.fed.us/people/dlindner) (dlindner@fs.fed.us)
+
+**Saprobes:**
+
+- Amy Milo (amymmilo@gmail.com)
+- [Jonathan Schilling](http://schillinglab.cfans.umn.edu/) (schillin@umn.edu)
+
+
+**Taxonomy:**
+
+- Dimitri Floudas (dfloudas@gmail.com)
+- Romina Gazis (gazisromina@gmail.com)
+- David Hibbet (DHibbett@clarku.edu)
+
+**Database:**
+
+- Will Cornwell (w.cornwell@unsw.edu.au)
+- [Habacuc Flores-Moreno](http://habacucfm.github.io/) (hfloresm@umn.edu)
+- Amy Zanne (aezanne@gmail.com)
 
 ## Notes for making a release using this *living dataset* design
 
