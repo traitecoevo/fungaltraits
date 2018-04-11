@@ -1,0 +1,20 @@
+language: r
+cache: packages
+sudo: false
+
+r_github_packages:
+  - ropenscilabs/datastorr
+  - jimhester/covr
+  - r-lib/httr
+
+after_success:
+  - Rscript -e 'library(covr); coveralls()'
+  - Rscript -e 'library(covr); codecov()'
+
+after_failure:
+  - ./travis-tool.sh dump_logs
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
