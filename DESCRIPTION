@@ -1,7 +1,7 @@
 Package: fungaltraits
 Title: A dynamically-updating versioned trait database for fungi
-Version: 0.0.1
-Date: 2017-04-21
+Version: 0.0.2
+Date: 2018-04-11
 Description: A functional trait database for fungi.  
 Depends:
     R (>= 3.1.0)
