@@ -20,6 +20,8 @@ This will download the data, and load it into R, and you're ready to do analyses
 
 **If you use this package in a published paper, please note the version number**.  This  will allow others to reproduce your work later.  There is a Zenodo DOI associated with each release, insuring that it will be stable in the future.  
 
+The current doi is [![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)
+
 That's it, really.  Below is information about the data sources and the versioned data distribution system (which we think is really cool), feel free to check it out, but you don't need to read the rest of this to use the package.  
 
 ----------------------
