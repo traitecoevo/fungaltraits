@@ -1,6 +1,6 @@
 # fungaltraits aka fun<sup>fun</sup>: a dynamic functional trait database for the world's fungi
 
-[![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)
+[![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)[![Build Status](https://travis-ci.org/traitecoevo/fungaltraits.svg?branch=master)](https://travis-ci.org/traitecoevo/fungaltraits)
 
 ## How to use this package
 
