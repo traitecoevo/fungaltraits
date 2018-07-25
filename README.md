@@ -33,7 +33,7 @@ That's it, really.  Below is information about the data sources, how to contribu
 Thank you for contributing to Fun<sup>fun</sup> (a fungal functional trait database). Below you will find a simple set of instructions to contribute to this DB. For assistance or enquiries please contact funtothefun@gmail.com. Before submitting keep in mind that this a living, open access DB, which we think is pretty cool (i.e. it will update as taxonomy changes, more data get added, and errors are corrected, all this while preserving previous versions;  free on all restrictions on access).
 
 #### Essential information
-It is essential that in your submission at least include the information below (if you prefer to fill-in some templates follow this [link](./templates/templates.md)):
+It is essential that in your submission at least include the information below (if you prefer to fill-in some templates follow this [link](https://github.com/habacucfm/contribute_fttf/blob/master/templates/templates.md)):
 
 - Submission: Once that you have fill in the essential information detailed below submit your data to funtothefun@gmail.com
 
