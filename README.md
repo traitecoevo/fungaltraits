@@ -26,6 +26,10 @@ The current doi is [![DOI](https://zenodo.org/badge/89052182.svg)](https://zenod
 
 That's it, really.  Below is information about the data sources, how to contribute data and the versioned data distribution system (which we think is really cool), feel free to check it out, but you don't need to read the rest of this to use the package.
 
+### Collaboration with FUNGuild
+
+fun<sup>fun</sup> leverages the ecological guilds present in the [FUNGuild](http://www.stbates.org/guilds/app.php) dataset. Currently fun<sup>fun</sup> collates the most common fungal guild at the genus level and matches it to each observation. As the end user wants different resolution a separate query to FUNGuild can be run. 
+
 ----------------------
 ### Submission guidelines
 
