@@ -2,9 +2,28 @@
 
 [![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)[![Build Status](https://travis-ci.org/traitecoevo/fungaltraits.svg?branch=master)](https://travis-ci.org/traitecoevo/fungaltraits)
 
+![](Logo_Natalie_edit.png)
+
+## Table of content
+<!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:0 orderedList:0 -->
+
+- [Table of content](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#table-of-content)
+- [How to use this package](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#how-to-use-this-package)
+	- [Install the package](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#install-the-package)
+	- [Access the fungal traits database](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#access-the-fungal-traits-database)
+	- [Collaboration with FUNGuild](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#collaboration-with-funguild)
+- [Submission guidelines](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#submission-guidelines)
+	- [Essential information](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#essential-information)
+- [Data sources](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#data-sources)
+- [Fun<sup>fun</sup> DB governance:](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#funfun-db-governance)
+- [Notes for making a release using this *living dataset* design](https://github.com/traitecoevo/fungaltraits/blob/master/README.md#notes-for-making-a-release-using-this-living-dataset-design)
+
+<!-- /TOC -->
+
+
 ## How to use this package
 
-#### Install the package
+### Install the package
 
 ```r
 install.packages("devtools")
@@ -13,7 +32,7 @@ devtools::install_github("traitecoevo/fungaltraits")
 library(fungaltraits)
 ```
 
-#### Access the fungal traits database
+### Access the fungal traits database
 
 ```r
 fungal_traits()
@@ -28,15 +47,14 @@ That's it, really.  Below is information about the data sources, how to contribu
 
 ### Collaboration with FUNGuild
 
-fun<sup>fun</sup> leverages the ecological guilds present in the [FUNGuild](http://www.stbates.org/guilds/app.php) dataset. Currently fun<sup>fun</sup> collates the most common fungal guild at the genus level and matches it to each observation. As the end user wants different resolution a separate query to FUNGuild can be run. 
+fun<sup>fun</sup> leverages the ecological guilds present in the [FUNGuild](http://www.stbates.org/guilds/app.php) dataset. Currently fun<sup>fun</sup> collates the most common fungal guild at the genus level and matches it to each observation. As the end user wants different resolution a separate query to FUNGuild can be run.
 
 ----------------------
-### Submission guidelines
-
+## Submission guidelines
 
 Thank you for contributing to Fun<sup>fun</sup> (a fungal functional trait database). Below you will find a simple set of instructions to contribute to this DB. For assistance or enquiries please contact funtothefun@gmail.com. Before submitting keep in mind that this a living, open access DB, which we think is pretty cool (i.e. it will update as taxonomy changes, more data get added, and errors are corrected, all this while preserving previous versions;  free on all restrictions on access).
 
-#### Essential information
+### Essential information
 It is essential that in your submission at least include the information below (if you prefer to fill-in some templates follow this [link](https://github.com/habacucfm/contribute_fttf/blob/master/templates/templates.md)):
 
 - Submission: Once that you have fill in the essential information detailed below submit your data to funtothefun@gmail.com
@@ -55,7 +73,7 @@ It is essential that in your submission at least include the information below (
 **Note that comma-separated files (.csv) are the preferred format for these files.**
 
 ----------------------
-### Data sources
+## Data sources
 
 -   Aguilar Uscanga, MG, M-L. Delia, and P. Strehaiano. "Brettanomyces bruxellensis: effect of oxygen on growth and acetic acid production." Applied microbiology and biotechnology 61.2 (2003): 157-162.
 
@@ -302,8 +320,6 @@ It is essential that in your submission at least include the information below (
 -   Zeng, X., et al. "Antioxidant capacity and mineral contents of edible wild Australian mushrooms." Revista de Agaroquimica y Tecnologia de Alimentos 18.4 (2012): 367-379.
 
 -   Zhang, Dan, et al. "TraceeElements in Leccinum scabrum mushrooms and topsoils from Klodzka Dale in Sudety Mountains, Poland." Journal of Mountain Science 10.4 (2013): 621-627.
-
-![](Logo_Natalie_edit.png)
 
 ## Fun<sup>fun</sup> DB governance:
 
