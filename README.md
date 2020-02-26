@@ -2,6 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)[![Build Status](https://travis-ci.org/traitecoevo/fungaltraits.svg?branch=master)](https://travis-ci.org/traitecoevo/fungaltraits)
 
+## How to cite the DB?
+Please cite this database as:
+
+Flores-Moreno, Habacuc, Treseder, Kathleen, K., , Cornwell, William, K.,  Maynard, Daniel S., Milo, Amy, M., Abarenkov, Kessy,  Afkhami, Michelle, E., Aguilar-Trigueros, Carlos, A., Bates, Scott, Bhatnagar, Jennifer, M., Busby, Posy, E., Christian, Natalie, Crowther, Thomas W., Floudas, Dimitri, Gazis, Romina, Hibbett, David, Kennedy, Peter, F., Lindner, Daniel, L., Nilsson, R. Henrik, Powell, Jeff, Schildhauer, Mark, Schilling, Jonathan, Zanne, Amy, E. 2019. fungaltraits aka funfun: a dynamic functional trait database for the world's fungi. Dataset: https://github.com/traitecoevo/fungaltraits. [![DOI](https://zenodo.org/badge/89052182.svg)](https://zenodo.org/badge/latestdoi/89052182)
+
 ![](Logo_Natalie_edit.png)
 
 ## Table of content
